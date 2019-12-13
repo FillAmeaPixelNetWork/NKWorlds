@@ -1,0 +1,14 @@
+name: Worlds
+main: anse.Worlds.PluginMain
+version: 1.0.0
+api: ["1.0.0"]
+author: anseEND
+
+commands:
+  wt:
+    description: Worlds Command.
+    permission: Worlds.Command
+permissions:
+  Worlds.Command:
+    description: Worlds
+    default: true
